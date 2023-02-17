@@ -50,3 +50,18 @@ puts person.greeting
 circle = Circle.new(20)
 puts circle.area
 puts circle.circumference
+
+
+# data accessor (private , public )  # focus is on inheritance 
+class RubyClass
+     public
+    def publicMethod 
+      puts "Ruby in public"
+    end
+
+    private
+    def privateMethod 
+        puts "Ruby in private"
+      end
+
+end
